@@ -1,0 +1,19 @@
+body {
+
+        background-color: grey;
+        color: black;
+        padding: 10px;
+}
+
+
+tr, td{
+
+        background-color: lightgrey;
+        padding: 4px;
+
+}
+
+h1, h2 {
+
+        color: white;
+}
