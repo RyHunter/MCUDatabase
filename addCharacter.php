@@ -2,7 +2,7 @@
 
         ini_set('display_errors', 'On');
 
-        $mysqli = new mysqli("oniddb.cws.oregonstate.edu", "kalashne-db", "iW7Bw2pTnV6Vu8Cg", "kalashne-db");
+        $mysqli = new mysqli("test", "test", "test", "test");
 
         if($mysqli->connect_errno){
                 echo "Connection error " . $mysqli->connect_errno . " " . $mysqli->connect_error;
